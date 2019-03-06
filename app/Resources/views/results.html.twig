@@ -1,0 +1,4 @@
+{% for armoire in armoires %}
+    {{ armoire.id }} - {{ armoire.nom }}
+    {{ armoire.id ~ ' - ' ~ armoire.nom }}
+{% endfor %}
